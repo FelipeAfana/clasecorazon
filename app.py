@@ -19,7 +19,7 @@ Por favor, ingrese los datos en la pestaña de "Ingreso de Datos" y consulte el 
 """)
 
 # Cargar los modelos guardados
-scaler = joblib.load("escalador.bin")
+scaler = joblib.load("esclador.bin")
 model = joblib.load("modelo_knn.bin")
 
 # Crear dos pestañas
