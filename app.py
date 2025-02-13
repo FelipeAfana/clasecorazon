@@ -36,7 +36,7 @@ with tab1:
     colesterol = st.slider('Selecciona el nivel de colesterol', min_value=100, max_value=600, value=200)
 
     # Crear un DataFrame con los datos ingresados
-    df = pd.DataFrame({'Edad': [edad], 'Colesterol': [colesterol]})
+    df = pd.DataFrame({'edad': [edad], 'colesterol': [colesterol]})
 
     # Mostrar el DataFrame
     st.write("DataFrame Ingresado")
